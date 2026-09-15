@@ -159,6 +159,7 @@ causing content to spill past the edge of the screen.
         display:flex;
         flex-wrap: nowrap;
         overflow-x: auto;
+        overflow-y: hidden;
         gap: 20px;
         padding:0px;
         margin:0px;
