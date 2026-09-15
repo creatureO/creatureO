@@ -1,19 +1,19 @@
 *{
     font-family:'Courier New', Courier, monospace, sans-serif;
-    color: greenyellow;                        /* Changes text color */
+    color: rgb(0,255,0);                        /* Changes text color */
     font-weight: 100;
 }
 
 a {/* Changes text color */
-  color:greenyellow;                        /* Changes text color */
+  color:rgb(0,255,0);                        /* Changes text color */
   text-decoration-line: underline;       /* Ensures the line is visible */
   text-decoration-color: #0000;       /* Changes underline color independently */
   text-decoration-thickness: 2px;       /* Optional: changes underline thickness */
 }
 
 img{
-    border: 10px double greenyellow;
-    outline: 3px solid greenyellow;
+    border: 10px double rgb(0,255,0);
+    outline: 3px solid rgb(0,255,0);
 }
 
 a:hover{
@@ -56,7 +56,7 @@ h1{
     background-color: black;
     border:solid 1px rgb(200, 200, 200);
     outline:solid 5px rgb(90, 90, 90);
-    border-radius: 10px;
+    border-radius:10px;
 }
 
 ul{
@@ -68,7 +68,7 @@ ul{
 }
 
 li{
-    border:solid 1px yellowgreen;
+    border:solid 1px rgb(0,255,0);
 }
 
 li a{
@@ -76,7 +76,8 @@ li a{
 }
 
 li a:hover{
-    background-color: rgba(153, 205, 50, 0.5);
+    color:black;
+    background-color: yellowgreen;
 }
 
 .mainLogo{
