@@ -89,6 +89,7 @@ li a:hover{
 main{
     display:block;
     padding:1vw 3vw;
+    overflow-x: hidden;
 }
 
 .sub-pages u h3{
