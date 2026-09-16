@@ -240,7 +240,7 @@ causing content to spill past the edge of the screen.
         display:block;
         height:1vw;
         width:100vw;
-        margin-left:-5vw;
+        margin-left:-3vw;
         border-bottom: 1px solid rgb(0,255,0);
     }
     
