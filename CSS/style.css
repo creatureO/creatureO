@@ -47,10 +47,9 @@ header{
 
   /* metal texture */
   background-image: url('../creatureO-Images/homepage\ items/Textures/RustyMetal.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; /* Optional: keeps it full screen */
 }
 
 header h1{
@@ -178,6 +177,28 @@ display:block;
     background: radial-gradient(rgb(0, 80, 0),black);
 }
 
+.highlight{
+background-color:rgba(172, 255, 47, 0.25);
+font-weight: bold;
+letter-spacing: 0.05em;
+cursor: pointer; /* Changes the cursor to a clicking hand */
+}
+
+.underline{
+color:currentColor;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:1em;
+text-decoration: underline;
+cursor: pointer; /* Changes the cursor to a clicking hand */
+transition:font-size 0.3s ease;
+}
+
+.underline:hover{
+font-size:1.01em;
+cursor: pointer; /* Changes the cursor to a clicking hand */
+text-decoration: none;
+font-weight:bold;
+}
 
 /* =================================== FOOTER SECTION ===================================================== */
 footer{
@@ -305,7 +326,7 @@ main h1{
 }
 
 .paragraphs{
-    /*contains Paragraphs*/
+    border:none;
 }
 
 .paragraphChunk1{
