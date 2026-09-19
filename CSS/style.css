@@ -179,6 +179,7 @@ display:block;
 
 .highlight{
 background-color:rgba(172, 255, 47, 0.25);
+padding:0.1em 0.5em;
 font-weight: bold;
 letter-spacing: 0.05em;
 cursor: pointer; /* Changes the cursor to a clicking hand */
